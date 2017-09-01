@@ -1,15 +1,15 @@
 {
-  "name": "shel/dockerflow",
-  "description": "Docker Compose structure to quickly startup Flow Framework or Neos CMS projects",
+  "name": "lauri/dockermailer",
+  "description": "Docker Compose structure to quickly startup Mailer project",
   "license": "MIT",
   "require": {
     "typo3/flow": "*"
   },
   "authors": [
     {
-      "name": "Sebastian Helzle",
-      "email": "sebastian@helzle.net",
-      "homepage": "http://www.sebastianhelzle.net",
+      "name": "Lauri Saarni",
+      "email": "lauri@web-essentials.asia",
+      "homepage": "http://www.web-essentials.asia",
       "role": "Developer"
     },
     {
