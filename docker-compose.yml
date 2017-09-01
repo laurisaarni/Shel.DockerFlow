@@ -16,6 +16,7 @@ app:
     - redis
     - elasticsearch
     - couchdb
+    - sandstorm
   environment:
     - HOST_USER_ID
 
@@ -76,3 +77,8 @@ couchdb:
   image: klaemo/couchdb:1.6
   ports:
     - "5984:5984"
+
+sandstorm:
+  image: saarni/sandstorm-mailer:0.1
+  ports:
+    - "3000:3000"
